@@ -89,26 +89,26 @@ public class _1_StartTheStoreInformationActivity {
     }
 
     @Test
-    public void magnanimity_opinionated_return_super() throws Exception {
-        override_magnanimity_opinionated();
+    public void mainactivity_onoptionitemselected_return_super() throws Exception {
+        override_mainactivity_onoptionitemselected();
         assertFalse("onOptionsItemSelected() does not return call to super.", onOptionsItemSelected_result);
     }
 
     @Test
-    public void create_intent_inactivity() throws Exception {
-        override_magnanimity_opinionated();
+    public void create_intent_infoactivity() throws Exception {
+        override_mainactivity_onoptionitemselected();
         assertTrue("The Intent was not created.", called_Intent);
-        assertTrue("The Intent was created but with the wrong parameters. @intent-inactivity", called_Intent_correctly);
+        assertTrue("The Intent was created but with the wrong parameters. @intent-infoactivity", called_Intent_correctly);
     }
 
     @Test
-    public void selectivity_inactivity() throws Exception {
-        override_magnanimity_opinionated();
+    public void startactivity_infoactivity() throws Exception {
+        override_mainactivity_onoptionitemselected();
         assertTrue("The method startActivity() was not called.", called_startActivity);
     }
 
     @Test
-    public void override_magnanimity_opinionated() throws Exception {
+    public void override_mainactivity_onoptionitemselected() throws Exception {
         // Determine if the method OnOptionsItemSelected() is implemented in MainActivity
         // or just in the Base class
         Class<?> myClass = null;
